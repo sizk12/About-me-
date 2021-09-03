@@ -1,0 +1,89 @@
+body{
+text-align: center;
+margin: 0;
+color:#40514E;
+font-family: 'merriwether sans', sans-serif;
+}
+.pic{
+  hight: 400px;
+  width: 400px;
+  border-radius: 50%;
+  padding-top: 20px ;
+}
+.top_container{
+  position: relative;
+  background-color: #ccf2f4;
+  padding-top: 80px;
+
+}
+
+.top_cloud{
+  position:absolute;
+  left:60%;
+  top:50px;
+
+}
+.bottom_cloud{
+  position:absolute;
+}
+h1{
+font-size: 5.624rem;
+color:#66bfbf;
+font-family: 'Sacramento',cursive;
+}
+
+h2{
+  font-family:'Corbel',;
+}
+p{
+  font-family:'Corbel';
+}
+.webdev{
+  height: 150px;
+  width: 200px;
+  float:left;
+}
+.Biriyani{
+  height: 100px;
+  width:200px;
+  float:right;
+
+}
+.profile{
+  padding-bottom: 20px;
+}
+.skills-row{
+  width:50%;
+  margin:200px auto 300px auto;
+}
+hr{
+  border: dotted;
+  color:#eaf6f6;
+  border-width: 8px;
+  border-top: 0;
+  width: 10%;
+}
+.button {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+
+}
+.button:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
